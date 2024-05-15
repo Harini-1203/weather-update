@@ -29,6 +29,7 @@ async function weatherup(cityname){
     degree.innerHTML=data.main.temp+"°C";
     
     document.querySelector('img').src='images/'+data.weather[0].main+'.png';
+    console.log("image works");
 }
 
 function mouse(){   
