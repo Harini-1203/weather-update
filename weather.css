@@ -1,0 +1,70 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    height: 100vh;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    background-image: url('https://i.pinimg.com/originals/60/8b/a1/608ba17934ba28dcd98621eb55f5432e.jpg');
+}
+.outer-container{
+   
+    background-color:rgb(196, 201, 199,0.1);
+    width:400px;
+    height: 500px;
+    padding: 20px;
+    border-radius: 10px;
+    backdrop-filter: blur(2px);
+    
+}
+
+input{
+    border-radius: 10px;
+    font-size: 1.1rem;
+    border: none;
+    width:260px;
+    padding:10px;
+    outline: none;
+   
+}
+.inputhover{
+    border: 2px skyblue solid;
+}
+button{
+    background-color: rgb(255, 255, 255);
+    border: none;
+    padding: 10px;
+    margin: 0 10px;
+    font-size: 1.1em;
+    border-radius: 50%;
+    cursor: pointer;
+
+    
+    
+}
+.details{
+    display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   margin-top: 40px;
+}
+#city{
+    padding-top: 10px;
+    font-size: 2.5em;
+}
+#degree{
+    font-size: 3em;
+}
+
+.buttonhover{
+    font-size: 0.9rem;
+    box-shadow: 2px 2px lightblue ;
+    opacity: 80%;
+    color: rgb(57, 186, 228);
+}
